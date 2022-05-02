@@ -29,7 +29,7 @@ function encodeLine(str) {
           count++;
           key = str[k];
         }
-      
+       
     }
     newArr.push(count, key);
   }

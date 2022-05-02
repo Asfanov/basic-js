@@ -18,7 +18,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  * The result should be following:
  * [
- *  [1, 2, 1],
+ *  [1, 2, 1], 
  *  [2, 1, 1],
  *  [1, 1, 1]
  * ]

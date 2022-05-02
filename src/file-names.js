@@ -24,7 +24,7 @@ function renameFiles(names) {
       
       for(let k = i + 1; k < names.length; k++){
         if(names[i] === names[k]){
-          count ++;
+          count ++; 
           names[k] = names[k] + `(${count})`
         }
       }

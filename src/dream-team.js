@@ -19,7 +19,7 @@ function createDreamTeam(members) {
   if(Array.isArray(members)){
       for(let i = 0; i < members.length; i++){
         if (typeof members[i] != 'string') continue;
-        else if (members.length === 0) return 0;
+        else if (members.length === 0) return 0; 
         else{
           members[i] = members[i].trim();
           arr.push(members[i].slice(0, 1).toUpperCase());

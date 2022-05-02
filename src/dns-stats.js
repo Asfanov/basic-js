@@ -16,7 +16,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * The result should be the following:
  * {
  *   '.ru': 3,
- *   '.ru.yandex': 3,
+ *   '.ru.yandex': 3, 
  *   '.ru.yandex.code': 1,
  *   '.ru.yandex.music': 1,
  * }

@@ -17,7 +17,7 @@ function sortByHeight(arr) {
       if(arr[i] === -1) continue;
       
     }
-  
+   
   }
   return arr;
 }

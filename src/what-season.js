@@ -28,7 +28,7 @@ function getSeason(date) {
         case 0:
         case 1:
           result = 'winter'
-          break
+          break 
         case 2:
         case 3:
         case 4:

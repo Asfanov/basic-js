@@ -18,7 +18,7 @@ function isMAC48Address(n) {
   console.log(n);
   let regExp = /-?(\d*|[A-F]*|\d[A-F]|[A-F]\d)-?/g
   if(n === regExp) return true;
-  return false;
+  return false; 
 }
 module.exports = {
   isMAC48Address

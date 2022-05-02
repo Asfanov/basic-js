@@ -17,7 +17,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * reverseMachine.encrypt('attack at dawn!', 'alphonse') => '!ULLD XS XQHIEA'
  * 
  * reverseMachine.decrypt('AEIHQX SX DLLU!', 'alphonse') => '!NWAD TA KCATTA'
- * 
+ *  
  */
 class VigenereCipheringMachine {
   encrypt() {

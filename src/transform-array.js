@@ -22,7 +22,7 @@ function transform(arr) {
       if(Array.isArray(newArr) === true){
         for(let i = 0; i < newArr.length; i++){
           if(newArr[i] === `--discard-next`){
-          newArr.splice(arr[i], 2);
+          newArr.splice(arr[i], 2); 
           } else if(arr[i] === `--discard-prev`){
             newArr.splice(newArr[i] - 1, newArr[i]);
            } 

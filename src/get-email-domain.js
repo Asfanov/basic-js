@@ -15,6 +15,6 @@ function getEmailDomain( email ) {
   return email.replace(/^(?:(?!(\w*)?-?\w*.\w*$).)+/, '')
 }
 
-module.exports = {
+module.exports = { 
   getEmailDomain
 };
